@@ -199,7 +199,7 @@ export function ShareSection() {
                 Teacher
               </p>
               <p className="text-xs italic">
-                Special thanks to AHMED LAMERI for his support
+                Special thanks to AHMED LAMERI for his help
               </p>
             </div>
           </div>

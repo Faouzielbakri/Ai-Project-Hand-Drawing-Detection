@@ -17,7 +17,7 @@ This project was developed as part of the **AI and PY Formation** program, a col
 
 - **FAOUZI EL BAKRI** - Teacher
 
-*Special thanks to AHMED LAMERI for his support*
+*Special thanks to AHMED LAMERI for his help*
 
 ---
 
