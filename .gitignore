@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# PyTorch model files (too large for git)
+*.pt
+
+# ONNX Runtime WASM files (generated from npm)
+public/ort-*.wasm
+public/ort-*.mjs
