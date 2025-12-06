@@ -136,8 +136,6 @@ export function QuickDrawApp() {
             <div className="text-center sm:text-left">
               <p>
                 Developed by <strong className="text-foreground">FAOUZI EL BAKRI</strong>
-                {" "}and{" "}
-                <strong className="text-foreground">AHMED LAMERI</strong>
               </p>
             </div>
             <div className="text-center sm:text-right">

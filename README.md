@@ -13,10 +13,11 @@ This project was developed as part of the **AI and PY Formation** program, a col
 - **Samsung Innovation Campus (SIC)**
 - **Ministry of Education of Morocco** (Ministere de l'Education Nationale)
 
-### Authors
+### Author
 
 - **FAOUZI EL BAKRI** - Teacher
-- **AHMED LAMERI** - Teacher
+
+*Special thanks to AHMED LAMERI for his support*
 
 ---
 
@@ -154,5 +155,5 @@ This project uses the [Google Quick Draw Dataset](https://quickdraw.withgoogle.c
 </p>
 
 <p align="center">
-  Developed by <strong>FAOUZI EL BAKRI</strong> and <strong>AHMED LAMERI</strong>
+  Developed by <strong>FAOUZI EL BAKRI</strong>
 </p>

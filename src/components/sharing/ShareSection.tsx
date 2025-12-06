@@ -192,15 +192,14 @@ export function ShareSection() {
           <Separator />
 
           <div className="space-y-2">
-            <h4 className="font-medium">Authors</h4>
+            <h4 className="font-medium">Author</h4>
             <div className="text-sm text-muted-foreground space-y-1">
               <p>
                 <strong className="text-foreground">FAOUZI EL BAKRI</strong> -
                 Teacher
               </p>
-              <p>
-                <strong className="text-foreground">AHMED LAMERI</strong> -
-                Teacher
+              <p className="text-xs italic">
+                Special thanks to AHMED LAMERI for his support
               </p>
             </div>
           </div>
