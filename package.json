@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "pnpm copy-ort && next build --webpack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "copy-ort": "cp node_modules/onnxruntime-web/dist/ort-wasm-simd-threaded*.wasm public/ && cp node_modules/onnxruntime-web/dist/ort-wasm-simd-threaded*.mjs public/",
+    "postinstall": "pnpm copy-ort || true"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
