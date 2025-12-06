@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Quick Draw Recognition - AI Sketch Detection",
   description:
-    "AI-powered sketch recognition that can identify 340 different objects. Draw, capture, or upload images to see real-time predictions using MobileNetV3 and EfficientNet models.",
+    "AI-powered sketch recognition that can identify 340 different objects. Draw, capture, or upload images to see real-time predictions. AI and PY Formation - Samsung x Ministry of Education Morocco.",
   keywords: [
     "Quick Draw",
     "AI",
@@ -18,6 +18,31 @@ export const metadata: Metadata = {
     "PyTorch",
     "ONNX",
   ],
+  metadataBase: new URL("https://ai-project-hand-drawing-detection.vercel.app"),
+  openGraph: {
+    title: "Quick Draw Recognition - AI Sketch Detection",
+    description:
+      "AI-powered sketch recognition with 340 categories. Draw, capture, or upload images for real-time predictions!",
+    url: "https://ai-project-hand-drawing-detection.vercel.app",
+    siteName: "Quick Draw Recognition",
+    images: [
+      {
+        url: "/ministre.png",
+        width: 512,
+        height: 512,
+        alt: "Quick Draw Recognition - AI and PY Formation",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Quick Draw Recognition - AI Sketch Detection",
+    description:
+      "AI-powered sketch recognition with 340 categories. Draw, capture, or upload!",
+    images: ["/ministre.png"],
+  },
 };
 
 export default function RootLayout({
